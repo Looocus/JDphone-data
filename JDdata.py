@@ -1,5 +1,6 @@
 #-*- coding:utf-8 -*-
 __author__ = 'Danny'
+#get the former 5 pages data
 #matplotlib设置中文
 #plt.rcParams['font.sans-serif'] = ['SimHei']
 #plt.rcParams['axes.unicode_minus'] = False
@@ -139,7 +140,7 @@ def getsale(list_1):
     return brand_sale
 
 
-data_num = gethtml(5)
+data_num = gethtml(5)    ##number here can change the pages you want to get
 
 list_1 = getdata(data_num)
 
